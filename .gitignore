@@ -1,0 +1,5 @@
+vendor/
+core/config/.env
+.idea/
+.git/
+phinx.yml

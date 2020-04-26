@@ -1,0 +1,11 @@
+{
+    "require": {
+        "twig/twig": "^2.12",
+        "larapack/dd": "^1.1",
+        "monolog/monolog": "^1.25",
+        "vlucas/phpdotenv": "^4.1",
+        "swiftmailer/swiftmailer": "^6.2",
+        "gabordemooij/redbean": "^5.4",
+        "robmorgan/phinx": "^0.11.6"
+    }
+}
