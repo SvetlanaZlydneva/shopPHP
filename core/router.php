@@ -60,7 +60,7 @@ if (file_exists($file)) {
 
     if (class_exists($class) && method_exists($class, $method)) {
         $router = new $class;
-        $router->$method();
+        $page=$router->$method();
     } else {
         $container = new Container();
         $container->logger('Class or method not found');
@@ -73,6 +73,3 @@ if (file_exists($file)) {
     $container->logger('Controller not found');
     throw new Exception('Controller not found');
 }
-
-
-

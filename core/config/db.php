@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Админ
- * Date: 26.04.2020
- * Time: 20:29
- */
+
+
+use \RedBeanPHP\R as R;
+R::setup("mysql:host=$_ENV[host]; dbname=$_ENV[dbName]",$_ENV['login'],$_ENV['password']);
